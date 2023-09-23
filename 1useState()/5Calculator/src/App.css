@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*::selection {
+    color: #fff;
+    background-color: #000;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    /* height: 100vh; */
+    background-color: #1b1b1b;
+}
+
+.container{
+    max-width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    margin: 100px auto;
+    background-color: #fff;
+    padding: 40px 20px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+
+.container h2{
+    font-size: 28px;
+    color: black;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.container input{
+    all: unset;
+    color: #0c0c0c;
+    border: 1px solid #000000;
+    padding: 9px 6px;
+    font-weight: 600;
+    font-size: 16px;
+    margin: 0 5px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+
+
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+
+.button button{
+    all: unset;
+    background-color: blueviolet;
+    color: #fff;
+    font-size: 14px;
+    padding: 11px 20px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    cursor: pointer;
+}
+
+
+.container p{
+    border-top: 1px solid black;
+    width: 100%;
+    padding-top: 15px;
+    color: black;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+
+.container p span{
+    font-weight: 800;
+}
