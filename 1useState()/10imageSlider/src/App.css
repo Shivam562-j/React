@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*::selection {
+    color: #fff;
+    background-color: #000000;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #242424;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+
+.container h1{
+  color: #fff;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+
+.wrapper {
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    text-align: center;
+    padding: 0 30px;
+    position: relative;
+}
+
+.images{
+  max-height: 500px;
+  max-width: 600px;
+  border: 2px solid #059fff;
+  overflow: hidden;
+  display: block;
+  background-color: #ffffff;
+}
+
+.images img{
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+  overflow: hidden;
+  object-fit: cover;
+  object-position: center;
+}
+
+.btn{
+  position: relative;
+}
+
+.btn button{
+  all: unset;
+  background-color: #059fff;
+  color: #fff;
+  padding: 4px 12px;
+  font-size: 50px;
+  height: 50px;
+  width: 30px;
+  line-height: 1;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  position: absolute;
+  margin-top: -30%;
+  z-index: 999;
+  cursor: pointer;
+
+}
+
+.btn button.right{
+  right: -5%;
+}
+
+.btn button.left{
+  left: -5%;
+}
+
+
+
